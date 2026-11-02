@@ -21,7 +21,7 @@ Hide / Show / Toggle buttons for the status message and fun facts.
 ![alt text](Screenshots/screenshot3.png)
 
 ## Task 3 - Fade
-Fade In / Fade Out / Fade Toggle for two photos.
+Fade In / Fade Out / Fade Toggle for photos.
 
 ![alt text](Screenshots/screenshot4.png)
 
@@ -33,12 +33,12 @@ Skill list with Add, Prepend, and Remove buttons. Empty skill shows an alert.
 
 
 
-## Task 6 - Attributes
+## Task 5 - Attributes
 Button changes the link with .attr().
 
 ![alt text](Screenshots/screenshot6.png)
 
-## Task 7 - Form and Animation
+## Task 6 - Form and Animation
 Name and Email are shown live with .val() and .text().
 Skill bars grow with .animate() and go back to zero on second click.
 
