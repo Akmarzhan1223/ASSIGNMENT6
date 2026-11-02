@@ -1,6 +1,6 @@
 # Assignment 6 - jQuery Portfolio
 
-**Name:** Akmarzhan
+**Name:** Akmarzhan Nurtas
 **Group:** SE-2538
 
 
@@ -30,7 +30,6 @@ Three clickable headings open panels with slideToggle.
 Skill list with Add, Prepend, and Remove buttons. Empty skill shows an alert.
 
 ![alt text](Screenshots/screenshot5.png)
-
 
 
 ## Task 5 - Attributes
