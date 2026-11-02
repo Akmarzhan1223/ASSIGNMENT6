@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <title> Portfolio </title>
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="greeting">Hello, I am Akmarzhan</h1>
+            <p class="headline">Nice to meet you!</p>
+            <p class="intro">Welcome to my portfolio!</p>
+            <button id="lightBtn">Light Theme</button>
+            <button id="darkBtn">Dark Theme</button>
+        </div>
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am a student and I like web development.</p>
+            <p id="status">Currently learning jQuery!</p>
+            <ul id="facts">
+                <li>I like hanging out with friends</li>
+                <li>I like puzzles</li>
+                <li>I like watching anime</li>
+            </ul>
+            <button id="hideBtn">Hide</button>
+            <button id="showBtn">Show</button>
+            <button id="toggleBtn">Toggle</button>
+        </div>
+        <div class="section">
+            <h2>My Photos</h2>
+            <button id="fadeInBtn">Fade In</button>
+            <button id="fadeOutBtn">Fade Out</button>
+            <button id="fadeToggleBtn">Fade Toggle</button>
+            <br><br>
+            <img src="images/img1.jpeg" class="photo">
+            <img src="images/img2.jpeg" class="photo">
+            <img src="images/img3.jpeg" class="photo">
+            <img src="images/img4.jpeg" class="photo">
+        </div>
+        <div class="section">
+            <h2>My Favorites</h2>
+            <h3 class="heading">My Favorite Music</h3>
+            <div class="panel"><p>I like pop and rnb music.</p></div>
+
+            <h3 class="heading">My Favorite Movie</h3>
+            <div class="panel"><p>I like Kill Bill.</p></div>
+
+            <h3 class="heading">My Favorite Subject</h3>
+            <div class="panel"><p>Web Technologies.</p></div>
+        </div>
+        <div class="section">
+            <h2>My Skills</h2>
+            <ul id="skillList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+            </ul>
+            <input type="text" id="skillInput" placeholder="New skill">
+            <button id="addBtn">Add Skill</button>
+            <button id="prependBtn">Prepend Skill</button>
+            <button id="removeBtn">Remove Skill</button>
+        </div>
+        <div class="section">
+            <h2>My Link</h2>
+            <a id="myLink" href="https://github.com/Akmarzhan1223">My GitHub</a>
+            <br><br>
+            <button id="changeLinkBtn">Change to previous assignment</button>
+        </div>
+        <div class="section">
+            <h2>Contact Form</h2>
+            <input type="text" id="nameInput" placeholder="Name"><br><br>
+            <input type="text" id="emailInput" placeholder="Email">
+            <p id="showName"></p>
+            <p id="showEmail"></p>
+        </div>
+        <div class="section">
+            <h2>Skill Bars</h2>
+            <p>HTML</p>
+            <div class="bar"><div id="bar1" class="fill"></div></div>
+            <p>CSS</p>
+            <div class="bar"><div id="bar2" class="fill"></div></div>
+            <p>JavaScript</p>
+            <div class="bar"><div id="bar3" class="fill"></div></div>
+            <button id="animateBtn">Animate My Skills</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
